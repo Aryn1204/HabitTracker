@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: MyFloatingActionButton(
         onPressed: createNewHabit,
       ),
-        backgroundColor: Colors.grey[300],
+        backgroundColor: Colors.grey[900],
         body: ListView(
           children: [
             MonthlySummary(datasets: db.heatMapDataSet,startDate:_myBox.get("START_DATE") ,),
